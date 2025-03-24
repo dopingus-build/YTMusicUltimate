@@ -28,7 +28,7 @@ concurrency:
 jobs:
   build:
     name: Build YTMusicUltimate
-    runs-on: [ macOS, self-hosted ]
+    runs-on: [ self-hosted, macOS ]
     permissions:
       contents: write
 
